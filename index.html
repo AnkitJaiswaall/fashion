@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion</title>
+    <style>
+        .header{
+            height: 200px;
+            width: 1430px;
+            background-color: black;
+            color: silver;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-around;
+        }
+        .menu{
+            margin-top: 100px;
+        }
+        .title{
+            font-size: 50px;
+            margin-left: 230px;
+            letter-spacing: 50px;
+            word-spacing: 40px;
+        }
+        .img{
+            margin-top: 30px;
+            height: 150px;
+        }
+        .main-area{
+            display: flex;
+            
+        }
+        .product{
+            
+            overflow: auto;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:visited{
+            color: silver;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+       <div class="title">Fashion Store</div>
+        <nav class="navbar">
+            <a href="./public/home.html" target="framebody"><div class="menu">Home</div></a>
+            
+            <a href="./public/kids-fashion.html" target="framebody"> <div class="menu">Kid's Fashion</div></a>
+            <a href="./public/mens-fashion.html" target="framebody"><div class="menu">Men's Fashion</div></a>
+            <a href="./public/womens-fashion.html" target="framebody"> <div class="menu">Women's Fashion</div></a>
+        
+       
+        </nav>
+
+    </header>
+    <sectionc class="main-area">
+        <nav>
+            <a href="./public/mens-fashion.html" target="framebody"><div><img class="img" src="./public/images/mens-fashion.jpeg" alt=""></div></a>
+            <a href="./public/womens-fashion.html" target="framebody"><div><img class="img" src="./public/images/women-fashion.jpeg" alt=""></div></a>
+            <a href="./public/kids-fashion.html" target="framebody"><div><img class="img" src="./public/images/kids-fashion.jpeg" alt=""></div></a>
+            
+            
+            
+        </nav>
+        <main>
+            <iframe name="framebody" src="./public/home.html" height="1000px" width="1280px"></iframe>
+
+        </main>
+    </section>
+</body>
+</html>
